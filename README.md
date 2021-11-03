@@ -3,40 +3,30 @@
 <head>
 <meta charset="UTF-8">
 
-<title>The legen of zelda lore</title>
+<title>Smash bros</title>
 
 </head>
 <body>
     <section>
         <header>
-            <h1>Mi blog de the legend of zelda</h1>
+            <h1>Mi blog de super smash bros</h1>
         </header>
 
         <main>
             <article>
                 <header>
                     <hgroup>
-                        <h2>Mi blog de the legend of zelda</h2>
+                        <h2>Mi blog de Super Smash Bros</h2>
                         <h4>02/11/21</h4>
                     </hgroup>
                 </header>
                 <div>
-                    <h3>En que consiste la trifuerza</h3>
-                    <p>La trifuerza, es uno de los objetos mas caracteristicas de legend of Zelda, esto es gracias a sus personajes, historia.
-                      Sin embargo, Zelda contiene varios, misterios, en esta ocasion tocaremos un de ellos, la trifuerza.
-                      ¿Que es la trifuerza?
-                      La trifuerza es una reliquia conformada en 3 partes, la leyenda cuenta que las 3 diosas, Din, la diosa del poder que creó la tierra; Nayru, la diosa de la                       sabiduría que creó el orden y Farore, la diosa del valor que creó la vida, ellas crearon el mundo, cuando lo terminaron, se el puso a cargo a la diosa                           Hylia, un dia vino a la aldea, el rey demonio, Hylia agotaba por la batalla, decidio rencarnar en una humana, para poder ocupar la trifuerza, desde                               entonces la diosa Hylia rencarna en una princesa cada cuanto.
-                      Según la leyenda, si una persona amable con un equilibrio de corazón entre estas fuerzas pone sus manos sobre la reliquia, obtendrá el verdadero poder que                       le permite controlarlo todo y llevar al mundo a la edad de oro. Sin embargo, si esas personas tienen maldad en sus corazones, hundirán al mundo en una era                       oscura. Por otro lado, si la persona que está expuesta al poder triangular no tiene un equilibrio de poder, solo dejará atrás el fragmento (fuerza,                               sabiduría o coraje) con el que más esté de acuerdo, y las dos personas restantes mirarán para dos personas correspondientes a las fuerzas correspondientes.
-                      La trifuerza tiene 3 fuerzas, pero cuales son
-                      
-                      Trifuerza del valor
-                      El poder triangular de los valientes es una de las tres partes del poder de la trifuerza. Fue creado por la valiente diosa Farol. A lo largo de la                                historia, sus portadores son varios héroes de Hailaru. El triángulo del coraje fortaleció su coraje y lo ayudó a vencer la magia oscura, aunque no en                            todas las leyendas tuvo que ser portador desde el principio.
-
-                      Trifuerza de la sabiduría
-                      El triángulo de la sabiduría es una de las tres partes del poder del triángulo. Fue creado por Naru, la diosa de la sabiduría. En la historia, su portadora                       siempre ha sido la princesa de Hailaru. El poder del triángulo de la sabiduría mejora sus habilidades mágicas, empoderándolos con telepataticos                                   teletransportación, previsión y proyección de energía misteriosa. Este fragmento es la llave para abrir la puerta al Reino de Helalu en The Legend of                             Zelda: The Wind Waker.
-                      
-                      La trifuerza de valor
-                      El triángulo de poder es una de las tres partes del triángulo de poder. Fue creado por la diosa del poder Din. Su portador es Ganondorf. Triforce of                              Power, además de la inmortalidad, también otorga una variedad de habilidades mágicas muy poderosas.
+                    <h3>Que son master hand y crazy hand </h3>
+                    <p>¿Quien es crazy hand?
+                     Es un espíritu atroz, considerado como la representación del espíritu destructivo. Sus ataques demuestran ser más letales que los de Master Hand, siendo                          capaz de controlar bombas, provocar congelamiento, tinieblas, colocar flores en la cabeza, y adormecimiento. Al trabajar en equipo con Master Hand, sus                          ataques son mucho más difíciles de esquivar, sin mencionar los ataques que ambas manos pueden realizar juntas.
+                        Master hand
+                        Es el jefe principal de la serie Super Smash Bros., apareció por primera vez en Super Smash Bros.como el jefe final en el modo de juego 1P. Master Hand                           reaparece en Super Smash Bros. Melee y Super Smash Bros. Brawl como el líder definitivo del modo clásico. También es la "manifestación del espíritu                               creativo" en el mundo aplastante1, y obviamente es el creador de este mundo. A partir de Super Smash Bros. Melee, Crazy Hand choca con la creación y la                           destrucción. Master Hand significa mano derecha, a diferencia de Crazy Hand, que es mano izquierda
+                        Se teoriza, que las manos son repretaciones del creador y lo que quiere con el juego.
                     </p>
                 </div>
             </article>
