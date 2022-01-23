@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: rgb(245, 245, 245);
+    font-size: 17px;
+
+}
+
+blockquote{
+    color: rgb(245, 245, 245);
+}
+
+h2{
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+}
+
+h3{
+    color:rgb(245, 245, 245)
+}
+
+h4{
+    color: rgb(245, 245, 245);
+    font-size: 20;
+}
+
+
+li{
+    color: rgb(245, 245, 245);
+}
+
+.articleo{
+    background-color: rgb(44, 43, 43);
+}
+
+.resaltado{
+    color:yellow;
+}
+
+#Blog_del_Dragon{
+    font-size: 3rem;
+    text-align: center;
+    color: orangered;
+
+}
+
+#Blog_Cuadratico{
+    font-size: 3rem;
+    text-align: center;
+    color: green;
+}
+figcaption{
+    color: rgb(245, 245, 245);
+}
+
+cite{
+    color: rgb(245, 245, 245);
+}
