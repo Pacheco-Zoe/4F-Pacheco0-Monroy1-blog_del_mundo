@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
 }
@@ -8,9 +12,11 @@ p{
 
 }
 
-blockquote{
+.blockquote{
     color: rgb(245, 245, 245);
 }
+
+
 
 h2{
     color: rgb(245, 245, 245);
@@ -27,12 +33,11 @@ h4{
 }
 
 
-li{
-    color: rgb(245, 245, 245);
-}
 
 .articleo{
+
     background-color: rgb(44, 43, 43);
+
 }
 
 .resaltado{
@@ -61,4 +66,48 @@ cite{
 
 span{
     color: rgb(245, 245, 245);
+}
+
+.articleo{
+    border-block-end: 1px solid rgb(245, 245, 245);
+    border-left: 1.5px;
+    padding: 1.5rem;
+}
+
+.video{
+    color: rgb(245, 245, 245);
+    background-color: rgb(44, 43, 43);
+}
+
+.ilustracion {
+    border: 4px solid rgb(245, 245, 245);
+    display: inline-block;
+
+}
+
+.ilustracion figcaption{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+#footer_blog{
+    margin: 2 rem;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav>ul>li{
+    list-style: none;
+}
+
+li{
+    color: white
+}
+
+article{
+    background-color: rgb(44, 43, 43);
 }
