@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+*
 
 /*  Clases generales */
 body {
@@ -75,81 +73,54 @@ nav>ul>li>a {
 
 .ilustracion {
     border: 4px solid rgb(245, 245, 245);
-    display: inline-block;
+    display: inline-block;    
+ 
 
 
 
 }
 
-.ilustracion figcaption {
-    background-color: rgb(44, 43, 43);
-    margin-top: 1rem;
+div>figure{    
+    background-color: rgb(44, 43, 43);   
+    border-block-end: 1px solid rgb(245, 245, 245);   
+     margin-top: 1rem;
     margin-left: 1rem;
+
+
     font-style: italic;
+    display: inline-block;
+
 
  
 }
 
 /* fin ilustraciones */
 
-/*Comienza grid */
 
-section{
-
-     /* despliégate como  grid */
-     display: grid;
-     /* Crea 12 columnas cada una de una fracción usando la función repeat*/
-     grid-template-columns: repeat(12, 1fr);
-     /* deja que las filas(renglones) ocupen el alto que necesitan */
-     grid-auto-rows: auto;
-     /* añade un espacio entre los elementos del grid de 3rem */
-     gap: 3rem;
-
-}
-
-/* Termina grid */
-
-
-section>header {
-
+section {
     display: grid;
-    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
     grid-template-columns: repeat(12, 1fr);
-    /* deja que las filas(renglones) ocupen el alto que necesitan */
     grid-auto-rows: auto;
-    /* añade un espacio entre los elementos del grid de 3rem */
     gap: 3rem;
 }
 
-section>header>main {
 
-    display: grid;
-    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
-    grid-template-columns: repeat(8, 1fr);
-    /* deja que las filas(renglones) ocupen el alto que necesitan */
-    grid-auto-rows: auto;
-    /* añade un espacio entre los elementos del grid de 3rem */
-    gap: 3rem;
+section>header{
+    grid-column: span 12;
+    left: auto;
 }
 
-section>header>main>aside {
-
-    display: grid;
-    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
-    grid-template-columns: repeat(4, 1fr);
-    /* deja que las filas(renglones) ocupen el alto que necesitan */
-    grid-auto-rows: auto;
-    /* añade un espacio entre los elementos del grid de 3rem */
-    gap: 3rem;
+section>header>main{
+    grid-column: span 8;
+    left: auto;
 }
 
-section>header>main>aside>footer {
+section>header>main>aside{
+    grid-column: span 4;
+    left: auto;
+}
 
-    display: grid;
-    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
-    grid-template-columns: repeat(12, 1fr);
-    /* deja que las filas(renglones) ocupen el alto que necesitan */
-    grid-auto-rows: auto;
-    /* añade un espacio entre los elementos del grid de 3rem */
-    gap: 3rem;
+section>header>main>aside>footer{
+    grid-column: span 12;
+    left: auto;
 }
