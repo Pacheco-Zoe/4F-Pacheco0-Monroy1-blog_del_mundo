@@ -1,4 +1,6 @@
-*
+*{
+    box-sizing: border-box;
+}
 
 /*  Clases generales */
 body {
@@ -12,6 +14,7 @@ body {
     border-block-end: 1px solid rgb(245, 245, 245);
     border-left: 1.5px;
     padding: 1.5rem;
+    display: inline-block;
 
     
 }
@@ -97,6 +100,7 @@ div>figure{
 /* fin ilustraciones */
 
 
+
 section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -105,22 +109,13 @@ section {
 }
 
 
-section>header{
-    grid-column: span 12;
-    left: auto;
-}
 
-section>header>main{
+section>header {
+    grid-column: span 12;
+}
+}
+section>main{
     grid-column: span 8;
-    left: auto;
 }
 
-section>header>main>aside{
-    grid-column: span 4;
-    left: auto;
-}
-
-section>header>main>aside>footer{
-    grid-column: span 12;
-    left: auto;
-}
+section>
