@@ -2,52 +2,29 @@
     box-sizing: border-box;
 }
 
-body{
+/*  Clases generales */
+body {
     background-color: black;
-}
-
-p{
-    color: rgb(245, 245, 245);
-    font-size: 17px;
+    color: white;
 
 }
 
-.blockquote{
-    color: rgb(245, 245, 245);
-}
-
-
-
-h2{
-    color: rgb(245, 245, 245);
-    font-size: 30px;
-}
-
-h3{
-    color:rgb(245, 245, 245)
-}
-
-h4{
-    color: rgb(245, 245, 245);
-    font-size: 20;
-}
-
-
-
-.articleo{
-
+.articleo {
     background-color: rgb(44, 43, 43);
+    border-block-end: 1px solid rgb(245, 245, 245);
+    border-left: 1.5px;
+    padding: 1.5rem;
 
+    
 }
 
-.resaltado{
-    color:yellow;
-}
+
 
 #Blog_del_Dragon{
     font-size: 3rem;
     text-align: center;
     color: orangered;
+
 
 }
 
@@ -55,59 +32,124 @@ h4{
     font-size: 3rem;
     text-align: center;
     color: green;
-}
-figcaption{
-    color: rgb(245, 245, 245);
+
+
 }
 
-cite{
-    color: rgb(245, 245, 245);
+/* Terminan clases generales  */
+
+/* barra de navegación */
+
+.resaltado {
+    color:yellow;
+    
 }
 
-span{
-    color: rgb(245, 245, 245);
+nav>ul>li {
+
+    list-style: none;
+
 }
 
-.articleo{
-    border-block-end: 1px solid rgb(245, 245, 245);
-    border-left: 1.5px;
-    padding: 1.5rem;
+nav>ul>li>a {
+
+    text-decoration: none;
+    color: orange;
 }
 
-.video{
-    color: rgb(245, 245, 245);
-    background-color: rgb(44, 43, 43);
+/* fin barra de navegación */
+
+/* footer del blog */
+#footer_blog {
+
+    margin: 2 rem;
+    
 }
+
+
+
+
+/* fin del footer del blog */
+
+/* ilustraciones */
 
 .ilustracion {
     border: 4px solid rgb(245, 245, 245);
     display: inline-block;
 
+
+
 }
 
-.ilustracion figcaption{
+.ilustracion figcaption {
+    background-color: rgb(44, 43, 43);
     margin-top: 1rem;
     margin-left: 1rem;
     font-style: italic;
+
+ 
 }
 
-#footer_blog{
-    margin: 2 rem;
+/* fin ilustraciones */
+
+/*Comienza grid */
+
+section{
+
+     /* despliégate como  grid */
+     display: grid;
+     /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+     grid-template-columns: repeat(12, 1fr);
+     /* deja que las filas(renglones) ocupen el alto que necesitan */
+     grid-auto-rows: auto;
+     /* añade un espacio entre los elementos del grid de 3rem */
+     gap: 3rem;
+
 }
 
-nav>ul>li>a{
-    text-decoration: none;
-    color: orange;
+/* Termina grid */
+
+
+section>header {
+
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
 }
 
-nav>ul>li{
-    list-style: none;
+section>header>main {
+
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(8, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
 }
 
-li{
-    color: white
+section>header>main>aside {
+
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(4, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
 }
 
-article{
-    background-color: rgb(44, 43, 43);
+section>header>main>aside>footer {
+
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
 }
