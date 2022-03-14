@@ -55,16 +55,25 @@ nav>ul>li {
 nav>ul>li>a {
 
     text-decoration: none;
-    color: orange;
+    color: #fff
 }
 
 /* fin barra de navegación */
 
 /* footer del blog */
 #footer_blog {
-
+    display: flex;
     margin: 2 rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 4rem 0;
+    font-size: 1.3rem;
+
     
+}
+
+#footer_blog div:nth-child(2) {
+    font-size: 0.9rem;
 }
 
 
@@ -112,4 +121,75 @@ section>aside {
 
 section>footer {
     grid-column: span 12;
+}
+
+nav {
+    font-size: 1.3rem;
+}
+
+nav>ul>li>a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.contenedor_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+article>header>hgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2 {
+    display: flex;
+    align-items: center;
+}
+
+article>header>hgroup>h2>img {
+    margin-right: 1rem;
+}
+
+
+
+aside>h2 {
+    align-items: center;
+    font-size: 1.3rem;
+
+
+}
+
+
+aside div:nth-child(2n) {
+   background-color: rgb(44, 43, 43);
+}
+
+
+
+
+aside div img {
+
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;  
+
+}
+
+aside div span {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+.microblogging {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
